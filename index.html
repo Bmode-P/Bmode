@@ -1,0 +1,87 @@
+<!doctype html>
+<html lang="ar" dir="rtl">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Bmode</title>
+  
+  <link rel="stylesheet" href="style.css">
+  
+</head>
+<body>
+  
+  <!-- Search Bar -->
+<div class="search-container">
+  <input type="text" id="searchInput" placeholder="ابحث عن لعبة...">
+</div>
+
+    
+    <nav class="navbar">
+      
+  <div class="topbar">
+    <button class="hamburger" id="hamburger" aria-label="فتح القائمة" aria-controls="sidebar" aria-expanded="false">
+      <span class="bar" aria-hidden="true"></span>
+    </button>
+    
+   <img class="logo" src="/تنزيل.svg" alt="logo" />
+  
+    
+  </div>
+</nav>
+  
+</nav>
+  <div class="overlay" id="overlay" tabindex="-1"></div>
+
+  <aside class="sidebar" id="sidebar" role="dialog" aria-modal="true">
+    
+<a href="#">Home 🏠</a>
+<a href="#about">ℹ️ About</a>
+<a href="">Games 🎮</a>
+<a href="#">Contact ☎️</a>
+
+
+  </aside>
+
+<h1>Games section</h1>
+
+<div class="games-grid" id="gamesGrid"></div>
+<div class="pagination" id="pagination"></div>
+
+
+
+<!-- About Section -->
+<section id="about">
+  <h2>عن الموقع</h2>
+  <p>
+    هذا الموقع مخصص لعرض أفضل الألعاب بشكل منظم وسهل التصفح.
+    يمكنك استعراض قائمة الألعاب، قراءة تفاصيلها، وتحميلها مباشرة.
+  </p>
+</section>
+
+<!-- Contact Section -->
+<section id="contact">
+  <h2>تواصل معنا</h2>
+  <p>
+    إذا كانت لديك أي استفسارات أو اقتراحات، لا تتردد في مراسلتنا عبر النموذج التالي:
+  </p>
+  <!-- formspree -->
+  <form action="https://formspree.io/f/xwpreyna" method="POST">
+    <input type="text" name="name" placeholder="اسمك" required>
+    <input type="email" name="email" placeholder="بريدك الإلكتروني" required>
+    <textarea name="message" placeholder="رسالتك" required></textarea>
+    <button type="submit">إرسال</button>
+  </form>
+</section>
+
+<!-- Footer -->
+  <footer class="footer">
+    <p>© 2025 موقع الألعاب. جميع الحقوق محفوظة.</p>
+    <nav class="footer-links">
+      <a href="privacy.html">سياسة الخصوصية</a> |
+      <a href="terms.html">الشروط والأحكام</a>
+    </nav>
+  </footer>
+ 
+  <script src="main.js"></script>
+</body>
+</html>
