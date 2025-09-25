@@ -107,8 +107,8 @@ function renderPagination(){
 const allGames = [
   {
     name: "Hay day",
-    img: "/unnamed (2).jpg",
-    desc: "لعبة عالم مفتوح مليئة بالمغامرات والحرية.",
+    img: "https://i.postimg.cc/k41jWXbD/unnamed-2.jpg",
+    desc: "Hay Day game mod unlimited money ",
     price: "30$"
   },
   {
